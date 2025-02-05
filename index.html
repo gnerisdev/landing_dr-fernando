@@ -4,52 +4,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="generator" content="Framer 575e68f">
   <title>Dr. Fernando Baratella de Assis - Especialista em Cirurgia Geral</title>
   <meta name="description"
     content="Tratamentos dermatológicos personalizados para revelar a melhor versão da sua pele, com resultados que você pode ver e sentir. DoutoraFERNANDO BARATELLA DE ASSIS Dermatologista Clínica e Estética estabelecida em Bragança Paulista-SP.">
-  <meta name="framer-search-index" content="https://framerusercontent.com/sites/5IKanCwC85z4ynALQ84Hfe/searchIndex-fNUdKABCUkcV.json">
-  <link rel="icon" href="./images/logo.png">
-
+  <link rel="icon" href="./images/logo.webp">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-
   <meta name="robots" content="max-image-preview:large">
- 
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="framer-body-augiA20Il-framer-xWgCm">
-  <!-- <header class="header">
-    <div class="header__logo">
-      <img src="./images/logo.png" alt="" srcset="">
+<body>
+  <nav id="nav-main" class="nav">
+    <div class="nav-main__wrapper-logo">
+      <img src="./images/logo-white.png" alt="Logo" class="nav-main__logo">
     </div>
-    <nav>
-      <a href="">Sobre</a>
-      <a href="">Tratamentos</a>
-      <a href="">tecnologias</a>
-      <a href="">agendamento</a>
-    </nav>
-  </header> -->
-
-  <nav id="nav-main" class="framer-OiO9i framer-1sAkG framer-11zl8dm framer-v-11zl8dm nav" data-framer-name="Desktop">
-    <img src="./images/logo.png" alt="logo" class="nav-main__logo">
 
     <div class="nav-main__items">
-      <a href="./#sobre">SOBRE</a>
-      <a href="./#tratamentos">TRATAMENTOS</a>
-      <a href="./#tecnologias">TECNOLOGIAS</a>
-      <a href="./#agendamentos">AGENDAMENTO</a>
+      <a href="#sobre">SOBRE</a>
+      <a href="#tratamentos">TRATAMENTOS</a>
+      <a href="#tecnica">TÉCNICA</a>
+      <a href="#agendamento">AGENDAMENTO</a>
     </div>
 
     <div class="nav-main__contact">
-      <img src="./images/icon-tel.svg" alt="" srcset="">
+      <img src="./images/icon-tel.svg" alt="Icone telefone">
       <span>(11) 96545-0945</span>
     </div>
   </nav>
 
   <nav id="nav-mobi">
-    <img src="./images/logo.png" alt="logo" class="nav-mobi__logo">
+    <img src="./images/logo-white.png" alt="Logo" class="nav-mobi__logo">
     
     <div class="nav-mobi__hamburger" id="hamburger-icon">
       <span></span>
@@ -57,12 +42,12 @@
     </div>
 
     <div class="nav-mobi__items">
-      <a href="./#sobre">SOBRE</a>
-      <a href="./#tratamentos">TRATAMENTOS</a>
-      <a href="./#tecnologias">TECNOLOGIAS</a>
-      <a href="./#agendamentos">AGENDAMENTO</a>
+      <a href="#sobre">SOBRE</a>
+      <a href="#tratamentos">TRATAMENTOS</a>
+      <a href="#tecnica">TÉCNICA</a>
+      <a href="#agendamento">AGENDAMENTO</a>
       <div class="nav-mobi__contact">
-        <img src="./images/icon-tel.svg" alt="" srcset="">
+        <img src="./images/icon-tel.svg" alt="Icone telefone" srcset="">
         <span>(11) 40344532</span>
       </div>
     </div>
@@ -90,13 +75,63 @@
           <div class="section-tratamento__wrapper-image">
             <img 
               sizes="(min-width: 1900px) max(50vw, 1px), (min-width: 1200px) and (max-width: 1899px) max(50vw, 1px), (max-width: 809px) 100vw, (min-width: 810px) and (max-width: 1199px) 100vw" 
-              src="./images/high-angle-man-getting-prp-injection-alopecia.jpg" 
+              src="./images/high-angle-man-getting-prp-injection-alopecia.webp" 
               alt="" 
             >
           </div>
           <div class="section-tratamento__backgroundcolor">
             <h2 class="section-tratamento__title">Tratamentos Capilar Fornecidos</h2>
-            <div class="section-tratamento__content"></div>
+            <div class="section-tratamento__content">
+              <div class="section-tratamento__content__item">
+                <div class="section-tratamento__content__item__image">
+                  <img src="./images/cirurgia-estetica.png" alt="Intradermoterapia / Mesoterapia" />
+                </div>
+                <article class="section-tratamento__content__item__article">
+                  <h3>Intradermoterapia / Mesoterapia</h3>
+                  <p>Injeção de medicamentos específicos diretamente no couro cabeludo, agindo no fortalecimento e crescimento dos fios. Os medicamentos são individualizados paciente a paciente.</p>
+                </article>
+              </div>
+
+              <div class="section-tratamento__content__item">
+                <div class="section-tratamento__content__item__image">
+                  <img src="./images/grafico.png" alt="MMP (micro infusão de medicamentos na pele)"/>
+                </div>
+                <article class="section-tratamento__content__item__article">
+                  <h3>MMP (micro infusão de medicamentos na pele)</h3>
+                  <p>Utilização de aparelho eletrônico com múltiplas agulhas que facilitam a infusão de medicamentos de forma mais uniforme no couro cabeludo.</p>
+                </article>
+              </div>
+
+              <div class="section-tratamento__content__item">
+                <div class="section-tratamento__content__item__image">
+                  <img src="./images/remover.png" alt="PRP (plasma rico em plaquetas)" />
+                </div>
+                <article class="section-tratamento__content__item__article">
+                  <h3>PRP (plasma rico em plaquetas)</h3>
+                  <p>Injeção de plasma do próprio paciente diretamente no couro cabeludo, com benefícios de Aumento do suprimento de sangue para o folículo piloso, Aumento da espessura da haste capilar, Estimulação da produção de colágeno, Aceleração da proliferação e renovação celular, Prolongamento da fase anágena do ciclo capilar.</p>
+                </article>
+              </div>
+
+              <div class="section-tratamento__content__item">
+                <div class="section-tratamento__content__item__image">
+                  <img src="./images/transplante.png" alt="Microlyzer de pele" />
+                </div>
+                <article class="section-tratamento__content__item__article">
+                  <h3>Microlyzer de pele</h3>
+                  <p>A mais nova tecnológica de microenxertos, utilizando de um aparelho projetado para realizar processamento de microenxertos de pele do couro cabeludo saudável com delicadeza, a fim de reduzir seus componentes a tamanhos microscópicos, porém mantendo e preservando a viabilidade tecidual, auxiliando na revitalização dos folículos pilosos.</p>
+                </article>
+              </div>
+
+              <div class="section-tratamento__content__item">
+                <div class="section-tratamento__content__item__image">
+                  <img src="./images/plantar.png" alt="Cirurgia de Transplante Capilar" />
+                </div>
+                <article class="section-tratamento__content__item__article">
+                  <h3>Cirurgia de Transplante Capilar</h3>
+                  <p>Utilização da técnica mais avançada e conhecida mundialmente para realização de transplante capilar, a técnica FUE (follicular unit extraction), o qual extrai-se folículos pilosos saudaveis um a um, e implanta nas regiões com falhas de calvice. Cirurgia segura, realizada com todos equipamentos de segurança.</p>
+                </article>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -114,6 +149,11 @@
                     <ion-icon name="caret-forward-outline"></ion-icon>
                   </a>
                 </div>
+
+                <div class="slide fade"><img class="slide-image" src="./images/3c2436f5-88c3-4694-8188-abcadeabfcbb.jpeg"></div>
+                <div class="slide fade"><img class="slide-image" src="./images/7db65bd8-ea3e-47c8-88e6-ae5b9f700b58.jpeg"></div>
+                <div class="slide fade"><img class="slide-image" src="./images/8eac755c-26a7-49ab-9f3a-d63de88e621b.webp"></div>
+                <div class="slide fade"><img class="slide-image" src="./images/b294e73c-6146-4e81-93b3-1b780c122fa9.jpeg"></div>
               </div>
 
               <p class="section-tecnica__text">
@@ -139,11 +179,91 @@
         <section id="beneficios" class="section section-beneficios">
           <div class="container">
             <h2 class="section-beneficios__title">O Transplante Capilar é para quem:</h2>  
-            <div class="section-beneficios__content"></div>
+            <div class="section-beneficios__content">
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Tem observado seu cabelo cair em maior quantidade nos últimos meses</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Notou áreas do couro cabeludo mais ralas e sem volume</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Percebe que está perdendo a linha de contorno do cabelo</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Já tentou diversos tratamentos, mas os resultados não foram satisfatórios</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Deseja uma solução definitiva para a calvície</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Está cansado de disfarçar a falta de cabelo com penteados ou acessórios</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Quer resgatar a confiança com uma aparência natural e jovem</p>
+                </article>
+              </div>
+
+              <div class="section-beneficios__content__item">
+                <div class="section-beneficios__content__item__image"></div>
+                <article class="section-beneficios__content__item__article">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9427 2.12227L5.66671 12.3983L0.057373 6.78894L1.94271 4.9036L5.66671 8.62761L14.0574 0.236938L15.9427 2.12227Z" fill="white"/>
+                  </svg>
+                  <p>Procurou por soluções alternativas, mas não obteve o efeito desejado</p>
+                </article>
+              </div>
+            </div>
           </div>
         </section>
 
-        <!-- Section Dra -->
+        <!-- Section Sobre -->
         <section class="section section-sobre" id="sobre">
           <div class="container">
             <div class="section-sobre__content">
@@ -165,7 +285,7 @@
                   Calvice? Nunca mais! 
                 </p>
               </div>
-              <img class="section-sobre__intro__image" src="./images/dr-fernando.png" alt="Foto do Doutor Fernando Baratella Assis">
+              <img class="section-sobre__image" src="./images/dr-fernando.png" alt="Foto do Doutor Fernando Baratella Assis">
             </div>
 
             <div class="ssr-variant hidden-iz8bxz hidden-q3t3ic">
@@ -198,7 +318,7 @@
                     </a>
                     <a href="tel:+5511965450945" target="_blank" style="text-decoration: none;">
                       <ion-icon name="call" style="font-size: 16px; vertical-align: middle; margin-right: 5px;"></ion-icon>
-                      (11) 96545-0945
+                      (11)4034-4532
                     </a>
                   </div>
                 </div>
@@ -207,7 +327,7 @@
               <div class="section-agendamento__line"></div>
 
               <div class="section-agendamento__animation">
-                <div class="framer-1wsmyl2" data-border="true" data-framer-name="ARC" name="ARC" style="border: 1px solid;">
+                <div class="framer-1wsmyl2" data-border="true" name="ARC" style="border: 1px solid;">
                   <div class="framer-c6rbxn-container" style="opacity: 1; transform: rotate(10.2071deg);">
                     <svg class="transform-origin-center-center" style="width:100%;height:100%;transform-origin:center" viewBox="0 0 100 100" overflow="visible">
                       <path id="curve-wnxkz4" d="M 0 50 L 0 50 A 1 1 0 0 1 100 50 L 100 50 L 100 50 A 1 1 0 0 1 0 50 L 0 50" stroke-width="none" fill="transparent"></path>
@@ -220,7 +340,7 @@
                     </svg>
                   </div>
                   <div class="framer-5mo8o4" data-border="true" style="border: 1px solid #ffffff;">
-                    <img src="./images/logo.png" alt="" style="width: 100%; position: absolute;">
+                    <img src="./images/logo.webp" alt="" style="width: 100%; position: absolute;">
                   </div>
                 </div>
               </div>
@@ -233,11 +353,11 @@
     </div>
   </div>
 
-  <a href="https://wa.me/5511965450945" id="whatsapp-button" target="_blank">
+  <a href="https://wa.me/551140344532?text=Olá%20Dr.%20Fernando%20Baratella!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20o%20transplante%20capilar%20com%20a%20técnica%20FUE.%20Poderia%20me%20passar%20mais%20informações?" id="whatsapp-button" target="_blank">
     <ion-icon name="logo-whatsapp" id="whatsapp-icon"></ion-icon>
   </a>  
 
-  <script src="index.js"></script>
+  <script defer src="index.js" ></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 
