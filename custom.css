@@ -457,8 +457,6 @@
   font-family: "Alta Regular", "Alta Regular Placeholder", sans-serif;
   font-size: 3rem;
   text-align: center;
-  opacity: 0;
-  transform: translateY(20px) scale(0.95);
 }
 @media (min-width: 1200px) {
   .section-tratamento__title {
@@ -469,11 +467,11 @@
   }
 }
 
-.section-tratamento.show .section-tratamento__title {
+/* .section-tratamento.show .section-tratamento__title {
   opacity: 1;
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   transform: translateY(0) scale(1);
-}
+} */
 
 .section-tratamento__wrapper-image {
   display: flex;
