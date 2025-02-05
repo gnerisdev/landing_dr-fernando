@@ -46,7 +46,7 @@ let isScrolling = false
 
 const animationElements = document.querySelectorAll(`
     .section-tecnica__title, 
-    .section-tratamento__title,
+    .section-tratamento,
     .section-tratamento__content__item,
     .section-beneficios__content__item,
     .section-hero__title,
@@ -67,7 +67,7 @@ const observer = new IntersectionObserver((entries) => {
       entry.target.classList.remove('show')
     }
   })
-}, { threshold: 0 })
+}, { threshold: 0.1 })
 
 animationElements.forEach((el) => observer.observe(el))
 
