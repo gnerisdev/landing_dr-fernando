@@ -542,6 +542,15 @@
 .section-tratamento__content__item__article p {
   font-family: "DM Sans", "DM Sans Placeholder", sans-serif;
   font-size: 1rem;
+  text-align-last: center;
+  word-spacing: -0.05em;
+  text-align: justify;
+  hyphens: auto;
+}
+@media (min-width: 810px) {
+  .section-tratamento__content__item__article p {
+    text-align-last: start;
+  }
 }
 
 .section-tratamento__backgroundcolor {
@@ -584,12 +593,15 @@
   overflow: hidden;
   margin-top: 4rem;
   gap: 40px;
+  max-width: 740px;
+  margin: 4rem auto 0;
 }
 @media (min-width: 1200px) {
   .section-tecnica__content {
     gap: 80px;
     grid-template-columns: 1fr 1fr;
     height: 403px;
+    max-width: none;
   }  
 }
 
@@ -699,11 +711,12 @@
   display: grid;
   gap: 120px;
   margin: auto;
-  
+  max-width: 740px;
 }
 @media (min-width: 1200px) {
   .section-sobre__content {
     grid-template-columns: 1fr 1fr;
+    max-width: none;
   }  
 }
 
@@ -806,23 +819,6 @@
   }  
 }
 
-.section-agendamento__line {
-  background: #cacaca;
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  top: 50%;
-  left: 0;
-}
-@media (min-width: 1200px) {
-  .section-agendamento__line {
-    width: 1px;
-    height: 90%;
-    left: 50%;
-    top: 0;
-  }  
-}
-
 .section-agendamento__location div {
   display: grid;
   gap: 16px;
@@ -868,11 +864,15 @@
   display: flex;
   justify-content: center;  
   padding: 56px 0;
+  border-bottom: 1px solid #cacaca;
 }
 @media (min-width: 1200px) {
   .section-agendamento__animation {
     padding-top: 56px;
     justify-content: end;  
+    border-left: 1px solid #cacaca;
+    border-bottom: none;
+
   }  
 }
 
@@ -927,4 +927,15 @@
   h2 {
     font-size: 2.5rem !important;
   }  
+}
+
+/* Text decoration  */
+@media (min-width: 1200px) {
+  #decoration-name-2 {
+    display: none;
+  }
+
+  #decoration-name-3 {
+    display: none;
+  }
 }
